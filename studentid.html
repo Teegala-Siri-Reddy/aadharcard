@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>MVSR Student ID Card</title>
+
+<style>
+    body {
+        background: #eee;
+        font-family: Arial, sans-serif;
+    }
+
+    .id-card {
+        width: 320px;
+        height: 500px;
+        background: #fff;
+        margin: 30px auto;
+        border-radius: 14px;
+        box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+        overflow: hidden;
+        position: relative;
+        border: 1px solid #aaa;
+    }
+
+    /* Top blue section */
+    .header {
+        background: #1f4fa3;
+        color: white;
+        text-align: center;
+        padding: 12px 8px;
+    }
+
+    .header h2 {
+        margin: 0;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .header p {
+        margin: 3px 0;
+        font-size: 11px;
+        line-height: 1.3;
+    }
+
+    /* Identity card label */
+    .label {
+        text-align: center;
+        color: #c40000;
+        font-weight: bold;
+        margin: 10px 0 6px;
+        letter-spacing: 1px;
+    }
+
+    /* Photo */
+    .photo {
+        width: 120px;
+        height: 150px;
+        margin: 0 auto;
+        border: 2px solid #333;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #666;
+        font-size: 12px;
+    }
+
+    /* Name */
+    .name {
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        color: #c40000;
+        margin: 8px 0;
+    }
+
+    /* Details */
+    .details {
+        padding: 0 20px;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .details strong {
+        font-weight: 600;
+    }
+
+    /* Signature */
+    .sign {
+        text-align: right;
+        padding: 10px 20px 0;
+        font-size: 13px;
+    }
+
+    .sign span {
+        display: block;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    /* Bottom blue bar */
+    .footer {
+        background: #1f4fa3;
+        color: white;
+        font-size: 11px;
+        padding: 8px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        line-height: 1.4;
+    }
+
+    /* Vertical branch text */
+    .branch-vertical {
+        position: absolute;
+        right: 6px;
+        top: 200px;
+        transform: rotate(90deg);
+        color: #c40000;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    /* Sample watermark */
+    .watermark {
+        position: absolute;
+        top: 220px;
+        left: 30px;
+        font-size: 36px;
+        color: rgba(0,0,0,0.12);
+        transform: rotate(-25deg);
+        font-weight: bold;
+        pointer-events: none;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="id-card">
+
+    <div class="watermark">SAMPLE</div>
+
+    <div class="header">
+        <h2>MVSR</h2>
+        <h2>Engineering College</h2>
+        <p>
+            (Sponsored by Matrusrí Educational Society)<br>
+            Affiliated to Osmania University | Estd. 1981
+        </p>
+    </div>
+
+    <div class="label">IDENTITY CARD</div>
+
+    <div class="photo">PHOTO</div>
+
+    <div class="name">Nyra Banerjee</div>
+
+    <div class="details">
+        <p><strong>Roll No :</strong> 2451-23-748-002</p>
+        <p><strong>Branch :</strong> CSE – AIML</p>
+    </div>
+
+    <div class="sign">
+        <em>Signature</em>
+        <span>Principal</span>
+    </div>
+
+    <div class="branch-vertical">CSE-AIML</div>
+
+    <div class="footer">
+Nadergul Village, Balapur Mandal,
+Ranga Reddy District, Hyderabad – 501510,
+Telangana, India.
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Voter Registration Form</title>
+    <link href="register.css" rel="stylesheet" />
+</head>
+<body>
+
+<h1>Election Commission of India</h1>
+<h2>Voter ID Registration Form</h2>
+
+<form>
+    <table border="5" align="center" cellspacing="10" cellpadding="10">
+
+        <tr>
+            <td>Full Name</td>
+            <td><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td>Father / Mother Name</td>
+            <td><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td>Date of Birth</td>
+            <td><input type="date"></td>
+        </tr>
+
+        <tr>
+            <td>Gender</td>
+            <td>
+                <input type="radio" name="g"> Male
+                <input type="radio" name="g"> Female
+                <input type="radio" name="g"> Other
+            </td>
+        </tr>
+
+        <tr>
+            <td>Mobile Number</td>
+            <td><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td>Aadhaar Number</td>
+            <td><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td>Address</td>
+            <td><textarea rows="5" cols="20"></textarea></td>
+        </tr>
+
+        <tr>
+            <td>State</td>
+            <td>
+                <select>
+                    <option>--SELECT--</option>
+                    <option>Andhra Pradesh</option>
+                    <option>Telangana</option>
+                    <option>Tamil Nadu</option>
+                    <option>Karnataka</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>District</td>
+            <td>
+                <select>
+                    <option>--SELECT--</option>
+                    <option>District 1</option>
+                    <option>District 2</option>
+                    <option>District 3</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Citizenship</td>
+            <td>
+                <input type="radio" name="c"> Indian
+                <input type="radio" name="c"> Other
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="Register">
+                <input type="reset" value="Clear">
+            </td>
+        </tr>
+
+    </table>
+</form>
+
+</body>
+</html>
+

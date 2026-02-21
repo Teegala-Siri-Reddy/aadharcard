@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Indian Driving Licence UI</title>
+
+<style>
+body{
+    background:#5faeb6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CARD */
+.dl-card{
+    width:900px;
+    height:520px;
+    background:#f8efe6;
+    margin:40px auto;
+    border-radius:16px;
+    box-shadow:0 15px 25px rgba(0,0,0,0.25);
+    padding:20px 25px;
+    box-sizing:border-box;
+}
+
+/* HEADER */
+.header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background:#b11217;
+    color:#fff;
+    padding:8px 15px;
+    border-radius:10px;
+}
+
+.header h2{
+    margin:0;
+    font-size:18px;
+    text-align:center;
+    flex:1;
+    text-transform:uppercase;
+}
+
+.logo{
+    width:40px;
+    height:40px;
+    background:#fff;
+    color:#b11217;
+    border-radius:50%;
+    text-align:center;
+    font-size:11px;
+    font-weight:bold;
+    padding-top:8px;
+    box-sizing:border-box;
+}
+
+/* TOP INFO */
+.top-info{
+    display:flex;
+    justify-content:space-between;
+    margin-top:10px;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.rule{
+    text-align:right;
+    font-size:13px;
+}
+
+/* BODY */
+.content{
+    display:flex;
+    margin-top:15px;
+}
+
+/* LEFT */
+.left{
+    width:65%;
+}
+
+.chip{
+    width:120px;
+    height:90px;
+    border-radius:8px;
+    background:linear-gradient(135deg,#f1c27d,#e0a96d);
+    margin-bottom:10px;
+}
+
+.text-row{
+    font-size:14px;
+    margin-bottom:6px;
+}
+
+.label{
+    font-weight:bold;
+}
+
+.auth{
+    margin:12px 0;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.cov{
+    display:flex;
+    gap:60px;
+    font-size:14px;
+}
+
+/* RIGHT */
+.right{
+    width:35%;
+    text-align:right;
+}
+
+.photo{
+    width:130px;
+    height:160px;
+    background:#d9d9d9;
+    border:2px solid #000;
+    margin-left:auto;
+    margin-bottom:10px;
+    text-align:center;
+    font-size:12px;
+    padding-top:65px;
+    box-sizing:border-box;
+}
+
+.thumb{
+    width:55px;
+    height:55px;
+    background:#d9d9d9;
+    border:1px solid #000;
+    margin-left:auto;
+}
+
+/* FOOTER */
+.footer{
+    display:flex;
+    justify-content:space-between;
+    margin-top:15px;
+    font-size:13px;
+}
+
+.sign{
+    border-top:1px solid #000;
+    width:220px;
+    text-align:center;
+    padding-top:3px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="dl-card">
+
+    <!-- HEADER -->
+    <div class="header">
+        <div class="logo">IND</div>
+        <h2>The Union of India<br>Maharashtra State Motor Driving Licence</h2>
+        <div class="logo">RTO</div>
+    </div>
+
+    <!-- TOP INFO -->
+    <div class="top-info">
+        <div>
+            DL No: <b>MH14 20230012345</b><br>
+            Valid Till: <b>15-06-2043 (NT)</b>
+        </div>
+        <div>
+            DOI: <b>15-06-2023</b><br>
+            DLR: <b>15-06-2023</b>
+        </div>
+        <div class="rule">
+            FORM 7<br>
+            RULE 16(2)
+        </div>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="content">
+
+        <!-- LEFT -->
+        <div class="left">
+            <div class="chip"></div>
+
+            <div class="auth">
+                AUTHORISATION TO DRIVE FOLLOWING CLASS<br>
+                OF VEHICLES THROUGHOUT INDIA
+            </div>
+
+            <div class="cov">
+                <div>
+                    <b>COV</b><br>
+                    LMV<br>
+                    MCWG
+                </div>
+                <div>
+                    <b>DOI</b><br>
+                    15-06-2023<br>
+                    15-06-2023
+                </div>
+            </div>
+
+            <br>
+
+            <div class="text-row"><span class="label">Name:</span> Bhagya Sri Rao</div>
+            <div class="text-row"><span class="label">S/D/W of:</span> Srinivasa Rao</div>
+            <div class="text-row"><span class="label">DOB:</span> 10-01-2004 &nbsp;&nbsp; <span class="label">BG:</span> O+</div>
+            <div class="text-row"><span class="label">Add:</span> Hyderabad, Telangana, India</div>
+            <div class="text-row"><span class="label">PIN:</span> 500001</div>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="right">
+            <div class="photo">PHOTO</div>
+            <div class="thumb"></div>
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <div class="sign">Signature & ID of Issuing Authority</div>
+        <div class="sign">Signature / Thumb Impression of Holder</div>
+    </div>
+
+</div>
+
+</body>
+</html>
+
